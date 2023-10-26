@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tagalog&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            height: 980px;
+            width: 500px;
+            border: 3px solid rgb(41, 39, 38);
+            border-radius: 10px;
+            margin: auto;
+            background: rgb(247,245,83);
+            background: linear-gradient(90deg, rgba(247,245,83,1) 16%, rgba(245,160,82,1) 44%, rgba(238,149,76,1) 78%);
+
+        }
+            /* background: rgb(233,135,14);
+            background: linear-gradient(90deg, rgba(233,135,14,1) 16%, rgba(227,230,94,1) 44%, rgba(238,237,76,1) 78%); */
+            
+
+        ::marker{
+            font-size: 12px;
+            content:'⚡';
+        }
+
+        .button{
+            width: 300px;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+
+        .bg{
+            background-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    
+    <h1 style="text-align: center; color: rgb(51, 36, 85); font-size: 2rem; font-family: 'Noto Sans Tagalog', sans-serif;
+    font-family: 'Playfair Display', serif;">Harry Potter & Philosopher's Stone</h1>
+        <h2  style="padding-left: 20px; color: rgb(85, 85, 100); font-family: 'Noto Sans Tagalog', sans-serif;
+        font-family: 'Playfair Display', serif;">Stars</h2>
+        <ul style="font-family: 'Satisfy', cursive;">
+            <li>Daniel Radcliffe</li>
+            <li>Emma Watson</li>
+            <li>Rupert Grint</li>
+            <li>Alan Rickman</li>
+        </ul>
+        <div>
+        <img style="border-radius: 10px;" width="100%" height="200px" src="./candleshogwarts.jpg" alt="moviephoto">
+    </div>
+
+    <p style="text-align: center; font-family: 'Noto Sans Tagalog', sans-serif;
+    font-family: 'Playfair Display', serif; font-weight: bold;">An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</p>
+
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/VyHV0BRtdxo?si=vO23r9U5Jk0hjlxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div class="button">
+    <button class="bg" style="width: 300px; height: 40px; border-radius: 20%;">Watch movie</button>
+    </div>
+</div>
+</body>
+</html>
